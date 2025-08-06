@@ -17,7 +17,7 @@ export class Calculadora{
     dividir(a, b){
         if(b === 0){
             this.resultado = "No se puede dividir por cero"
-            return
+            return this.resultado
         } else{
             this.resultado = a/b
             return this.resultado
